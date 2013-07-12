@@ -1,0 +1,24 @@
+GIT
+  remote: git://github.com/agrismart/rice.git
+  revision: 51db6e3c6c214283d462298258f299685fc5f63e
+  specs:
+    rice (1.5.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chunky_png (1.2.8)
+    hoe (2.16.1)
+      rake (~> 0.8)
+    rake (0.9.6)
+    rake-compiler (0.8.3)
+      rake
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chunky_png
+  hoe (~> 2.10)
+  rake-compiler
+  rice (= 1.5.1)!
